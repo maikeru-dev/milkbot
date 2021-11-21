@@ -1,0 +1,23 @@
+{
+  "name": "milkbot",
+  "version": "0.0.2",
+  "description": "discord bot for our milk server",
+  "main": "index.ts",
+  "scripts": {
+    "compile": "tsc index.ts",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maikeru-dev/milkbot.git"
+  },
+  "author": "Maikeru-dev",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/maikeru-dev/milkbot/issues"
+  },
+  "homepage": "https://github.com/maikeru-dev/milkbot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
