@@ -1,5 +1,6 @@
 import { Message, VoiceState, Client, Intents} from "discord.js";
-import 'dotenv'
+require('dotenv').config()
+
 const token = process.env.token;
 
 class ExtendedClient extends Client {
